@@ -866,7 +866,7 @@ select.selector {
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
-    background: url("../../assets/img/chevron.png") 97% / 2% no-repeat #eee;
+    background: url("../../assets/img/chevron.png") 97% / 10px no-repeat #eee;
     -webkit-transition: all .3s;
     -moz-transition: all .3s;
     -ms-transition: all .3s;
@@ -874,12 +874,17 @@ select.selector {
     transition: all .3s;
 }
 
+select.selector:disabled {
+    color: #eaeaea;
+    opacity: 0.7;
+}
+
 select.small, select.small-sm {
-    background: url("../../assets/img/chevron.png") 96% / 3% no-repeat #eee
+    background: url("../../assets/img/chevron.png") 96% / 10px no-repeat #eee
 }
 
 select.navSmall {
-    background: url("../../assets/img/chevron.png") 89% / 8% no-repeat #eee;
+    background: url("../../assets/img/chevron.png") 89% / 10px no-repeat #eee;
 }
 
 select:focus{
@@ -890,6 +895,192 @@ select:focus{
 select.wide {
     width: 120px;
 }
+
+.attachWrap {
+    padding: 20px 30px;
+    border: 1px solid #e8e8e8;
+    border-radius: 30px;
+}
+
+.inputfile {
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+    display: block;
+}
+
+.inputfile + label {
+    font-size: 24px;
+    text-align: center;
+    font-weight: 700;
+    color: #52586C;
+    background-color: rgba(228,231,237, 0.2);
+    display: block;
+    position: relative;
+    padding: 20px 10px;
+    border-radius: 10px;
+    border: 1px solid #e8e8e8;
+    left: 0;
+    top: 0;
+    margin: 10px 0;
+}
+
+/* DASHBOARD */
+
+.dashboard-box {
+    padding: 20px;
+    background: #fff;
+    -webkit-box-shadow: 0px 0px 30px 15px rgba(0,0,0,0.02);
+    -moz-box-shadow: 0px 0px 30px 15px rgba(0,0,0,0.02);
+    box-shadow: 0px 0px 30px 15px rgba(0,0,0,0.02);
+    border-radius: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+    position: relative;
+}
+
+.dashboard-box.projects:before {
+    font-weight: 900; content: "\f15b";
+    font-family: "Font Awesome 5 Free";
+    font-size: 100px;
+    color: rgba(220, 224, 231, 0.23);
+
+    position: absolute;
+    bottom: 0;
+    right: 15px;
+
+    display: block;
+    z-index: 0;
+}
+
+.dashboard-box.tasks:before {
+    font-weight: 900; content: "\f0ae";
+    font-family: "Font Awesome 5 Free";
+    font-size: 100px;
+    color: rgba(220, 224, 231, 0.23);
+
+    position: absolute;
+    bottom: 0;
+    right: 15px;
+
+    display: block;
+    z-index: 0;
+}
+
+.dashboard-box.time:before {
+    font-weight: 900; content: "\f017";
+    font-family: "Font Awesome 5 Free";
+    font-size: 100px;
+    color: rgba(220, 224, 231, 0.23);
+
+    position: absolute;
+    bottom: 0;
+    right: 15px;
+
+    display: block;
+    z-index: 0;
+}
+
+.dashboard-box.clients:before {
+    font-weight: 900; content: "\f0c0";
+    font-family: "Font Awesome 5 Free";
+    font-size: 100px;
+    color: rgba(220, 224, 231, 0.23);
+
+    position: absolute;
+    bottom: 0;
+    right: 15px;
+
+    display: block;
+    z-index: 0;
+}
+
+.dashboard-box .name {
+    font-size: 14px;
+    color: #A0AABE;
+    text-transform: uppercase;
+    display: block;
+    margin-bottom: 20px;
+    z-index: 5;
+}
+
+.dashboard-box .amount {
+    font-size: 42px;
+    font-weight: bold;
+    color: #26335E;
+    text-transform: uppercase;
+    display: block;
+    margin-bottom: 20px;
+    z-index: 5;
+}
+
+
+.dashboard-box .link {
+    font-size: 14px;
+    color: #06B4FE;
+    display: block;
+    z-index: 5;
+}
+
+.dashboard-box .box-header,
+.dashboard-box .box-header .box-heading {
+    height: 60px;
+    line-height: 60px;
+}
+
+.dashboard-box .box-header .box-heading {
+    color: #26335E;
+    font-size: 18px;
+}
+
+.dashboard-box .box-header .box-link {
+    color: #A0AABE;
+    float: right;
+}
+
+.tasksTable tr td {
+    line-height: 30px;
+    height: auto;
+}
+
+.tasksTable tr td input[type="checkbox"] {
+    height: 14px;
+}
+
+.tasksTable .custom-control-label::before {
+    position: absolute;
+    top: 7px !important;
+    left: -2rem;
+    display: block;
+    width: 1rem;
+    height: 1rem;
+    pointer-events: none;
+    content: "";
+    background-color: #fff;
+    border: #e8e8e8 solid 1px;
+    margin-right: 15px !important;
+    border-radius: 50%;
+}
+.tasksTable .custom-control-label::after {
+    position: absolute;
+    top: 7px;
+    left: -2rem;
+    display: block;
+    width: 1rem;
+    height: 1rem;
+    content: "";
+    background: no-repeat 50%/50% 50%;
+    border-radius: 5px;
+}
+
+.activityTable .avatar {
+    width: ;
+}
+
+/* END */
 
 @media screen and (max-width: 400px) {
     .taskSelect {
@@ -1031,6 +1222,14 @@ select.wide {
     .btnAdd {
         width: 180px;
         margin: 0;
+    }
+
+    section.header form {
+        float: right;
+    }
+
+    .page-item {
+        margin: 15px 0;
     }
 
     .btn-add-task {
@@ -1204,10 +1403,10 @@ select.wide {
     }
 
     select.small {
-        background: url("../../assets/img/chevron.png") 93% / 5% no-repeat #eee
+        background: url("../../assets/img/chevron.png") 93% / 10px no-repeat #eee !important
     }
     select.small-sm, select.navSmall {
-        background: url("../../assets/img/chevron.png") 96% / 2% no-repeat #eee
+        background: url("../../assets/img/chevron.png") 96% / 10px no-repeat #eee !important;
     }
 
     .searchInput {
@@ -1282,7 +1481,7 @@ select.wide {
         color: #495057;
         border: 1px solid #e8e8e8;
         background-color: #fff !important;
-        background: url("../../assets/img/chevron.png") 92% / 4% no-repeat #eee;
+        background: url("../../assets/img/chevron.png") 92% / 10px no-repeat #eee;
         -webkit-appearance: none;
         -moz-appearance: none;
         appearance: none;
@@ -1300,7 +1499,7 @@ select.wide {
         -webkit-appearance: none;
         -moz-appearance: none;
         appearance: none;
-        background: url("../../assets/img/chevron.png") 97% / 2% no-repeat #eee;
+        background: url("../../assets/img/chevron.png") 97% / 10px no-repeat #eee;
         -webkit-transition: all .3s;
         -moz-transition: all .3s;
         -ms-transition: all .3s;
@@ -1315,6 +1514,31 @@ select.wide {
 
     select.wide {
         width: 400px;
+    }
+    .inputfile {
+        width: 0.1px;
+        height: 0.1px;
+        opacity: 0;
+        overflow: hidden;
+        position: absolute;
+        z-index: -1;
+        display: block;
+    }
+
+    .inputfile + label {
+        font-size: 24px;
+        text-align: center;
+        font-weight: 700;
+        color: #52586C;
+        background-color: rgba(228,231,237, 0.2);
+        display: block;
+        position: relative;
+        padding: 20px 10px;
+        border-radius: 10px;
+        border: 1px solid #e8e8e8;
+        left: 0;
+        top: 0;
+        margin: 10px 0;
     }
     .app-login .login-wrapper .login-form {
         width: 530px;

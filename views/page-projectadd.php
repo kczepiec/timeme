@@ -1,28 +1,16 @@
-<!-- Add page -->
+<!-- Task page -->
 <section class="header">
     <div class="row">
-        <div class="col-md-8">
+        <div class="col-md-7">
             <a href="#" class="btnBack">
                 <i class="fas fa-chevron-left"></i>
             </a>
-            <h1>Add new task</h1>
+            <h1>Add new project</h1>
         </div>
-        <div class="col-md-4">
-            <form action="">
-                <label for="">Status</label>
-                <select name="" id="" class="statusSelect">
-                    <option value="">Pending</option>
-                    <option value="">In work</option>
-                    <option value="">Success</option>
-                    <option value="">On hold</option>
-                </select>
-                <div class="toggle ml-md-3">
-                    <label class="form-switch">
-                        Completed
-                        <input type="checkbox">
-                        <i></i>
-                    </label>
-                </div>
+        <div class="col-md-5">
+            <form action="" class="searchForm">
+                <input type="text" class="search" placeholder="Search...">
+                <a href="#" class="submit"><i class="fas fa-search"></i></a>
             </form>
         </div>
     </div>
@@ -32,40 +20,27 @@
         <div class="row">
             <div class="col-md-6">
                 <div class="form-group-float">
-                    <label for="">Task name</label>
+                    <label for="">Project name</label>
                     <input type="text" class="form-control w-100">
+                </div>
+                <div class="form-group-float">
+                    <label for="">Status</label>
+                    <select id="" class="selector small-sm">
+                        <option value="1">Pending</option>
+                        <option value="1">On hold</option>
+                        <option value="1">In work</option>
+                        <option value="1">Ended</option>
+                    </select>
                 </div>
                 <div class="form-group-float">
                     <label for="">Client</label>
                     <select id="" class="selector small-sm">
                         <?php
 
-                        for ($c == 0; $c < 10; $c++) {
+                        for ($p == 0; $p < 10; $p++) {
                             echo "<option value=\"$p\">Client $p</option>";
                         }
 
-                        ?>
-                    </select>
-                </div>
-                <div class="form-group-float">
-                    <label for="">Project name</label>
-                    <select id="" class="selector small-sm">
-                        <?php
-
-                        for ($p == 0; $p < 10; $p++) {
-                            echo "<option value=\"$p\">Project $p</option>";
-                        }
-
-                        ?>
-                    </select>
-                </div>
-                <div class="form-group-float">
-                    <label for="">Campaign linked</label>
-                    <select id="" class="selector small-sm">
-                        <?php
-                        for ($camp = 0; $camp < 9; $camp++) {
-                            echo "<option value='$camp'>Campaign $camp</option>";
-                        }
                         ?>
                     </select>
                 </div>
@@ -87,53 +62,22 @@
                         <div class="form-group-float">
                             <label for="">Start date</label>
                             <input type="text" name="startDate" class="form-control w-100">
-                            <a href="#" class="inputLink"><i class="far fa-calendar-alt"></i></a>
+                            <span class="inputLink"><i class="far fa-calendar-alt"></i></span>
 
                         </div>
                     </div>
                     <div class="col-md-4">
                         <div class="form-group-float">
-                            <label for="">Expected date</label>
+                            <label for="">Expect. date</label>
                             <input type="text" name="expectedDate" class="form-control w-100">
-                            <a href="#" class="inputLink"><i class="far fa-calendar-alt"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-4">
-                        <div class="form-group-float">
-                            <label for="">Time spent</label>
-                            <select name="" id="" class="selector small disabled" disabled>
-                                <option value='0' selected>0 hours</option>
-                                <?php
-                                for ($time = 1; $time < 9; $time++) {
-                                    echo "<option value='$time'>$time hours</option>";
-                                }
-                                ?>
-                            </select>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="form-group-float">
-                            <label for="">Assigned to</label>
-                            <select name="" id="" class="selector small">
-                                <option value="1">Izabela Pronko</option>
-                            </select>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="form-group-float">
-                            <label for="">Requested by</label>
-                            <select name="" id="" class="selector small">
-                                <option value="1">Marek Maroszek</option>
-                            </select>
+                            <span class="inputLink"><i class="far fa-calendar-alt"></i></span>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="col-md-6">
                 <div class="form-group-float">
-                    <label for="">Job description</label>
+                    <label for="">Project description</label>
                     <textarea type="text" class="form-control w-100"
                               style="resize: none; height: 100px; padding-top: 10px;"></textarea>
                 </div>
@@ -185,11 +129,13 @@
                 </div>
             </div>
         </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="text-center">
+                    <a href="#" class="btnNormal mr-3">Cancel</a>
+                    <a href="#" class="btnAdd" style="width: 90px">Submit</a>
+                </div>
+            </div>
+        </div>
     </form>
-</div>
-<div class="section-footer py-5">
-    <div class="text-center">
-        <a href="#" class="btnNormal mr-3">Cancel</a>
-        <a href="#" class="btnAdd" style="width: 90px">Submit</a>
-    </div>
 </div>

@@ -125,7 +125,7 @@
             </div>
             <div class="col-md-6">
                 <div class="form-group-float">
-                    <label for="">Campaign summary</label>
+                    <label for="" class="m-25">Campaign summary</label>
                     <textarea type="text" class="form-control w-100"
                               style="resize: none; height: 200px; padding-top: 10px;"></textarea>
                 </div>

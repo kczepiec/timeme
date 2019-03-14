@@ -63,26 +63,25 @@
                             <label for="">Start date</label>
                             <input type="text" name="startDate" class="form-control w-100">
                             <span class="inputLink"><i class="far fa-calendar-alt"></i></span>
-
                         </div>
                     </div>
                     <div class="col-md-4">
                         <div class="form-group-float">
                             <label for="">Expect. date</label>
                             <input type="text" name="expectedDate" class="form-control w-100">
-                            <span class="inputLink"><i class="far fa-calendar-alt"></i></span>
+                            <a class="inputLink"><i class="far fa-calendar-alt"></i></a>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="col-md-6">
                 <div class="form-group-float">
-                    <label for="">Project description</label>
+                    <label for="" class="m-25">Project description</label>
                     <textarea type="text" class="form-control w-100"
                               style="resize: none; height: 100px; padding-top: 10px;"></textarea>
                 </div>
                 <div class="form-group-float">
-                    <label for="">Final comment</label>
+                    <label for="" class="m-25">Final comment</label>
                     <textarea type="text" class="form-control w-100"
                               style="resize: none; height: 100px; padding-top: 10px;"></textarea>
                 </div>

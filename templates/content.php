@@ -21,12 +21,24 @@
                         include("views/page-clear.php");
                     } else if (isset($_GET['addtask'])) {
                         include("views/page-add.php");
-                    } else if (isset($_GET['task'])) {
-                        include("views/page-task.php");
+                    } else if (isset($_GET['mytasks'])) {
+                        include("views/page-mytasks.php");
+                    } else if (isset($_GET['alltasks'])) {
+                        include("views/page-alltasks.php");
+                    } else if (isset($_GET['pendingtasks'])) {
+                        include("views/page-pendingtasks.php");
+                    } else if (isset($_GET['finishedtasks'])) {
+                        include("views/page-finishedtasks.php");
                     } else if (isset($_GET['project'])) {
                         include("views/page-project.php");
-                    } else if (isset($_GET['projects'])) {
-                        include("views/page-projects.php");
+                    } else if (isset($_GET['allprojects'])) {
+                        include("views/page-allprojects.php");
+                    } else if (isset($_GET['pendingprojects'])) {
+                        include("views/page-pendingprojects.php");
+                    } else if (isset($_GET['myprojects'])) {
+                        include("views/page-myprojects.php");
+                    } else if (isset($_GET['finishedprojects'])) {
+                        include("views/page-finishedprojects.php");
                     } else if (isset($_GET['addproject'])) {
                         include("views/page-projectadd.php");
                     } else if (isset($_GET['campaigns'])) {

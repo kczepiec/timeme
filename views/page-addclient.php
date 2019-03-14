@@ -30,7 +30,7 @@
                     </select>
                 </div>
                 <div class="form-group-float">
-                    <label for="">Project description</label>
+                    <label for="" class="m-25">Project description</label>
                     <textarea type="text" class="form-control w-100"
                               style="resize: none; height: 300px; padding-top: 10px;"></textarea>
                 </div>

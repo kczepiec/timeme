@@ -21,7 +21,3 @@ $('input[name="expectedDate"]').daterangepicker({
     showDropdowns: true,
 });
 
-$('#a1').on('click', function () {
-    $('#b1').fadeToggle();
-});
-

@@ -1,9 +1,6 @@
 <section class="header">
     <div class="row">
         <div class="col-md-8">
-            <a href="#" class="btnBack">
-                <i class="fas fa-chevron-left"></i>
-            </a>
             <h1>Clients</h1>
             <div class="buttonList">
                 <a href="" data-toggle="modal" data-target="#addClient" class="btnAdd">Create new Client</a>

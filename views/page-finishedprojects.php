@@ -2,13 +2,7 @@
 <section class="header">
     <div class="row">
         <div class="col-md-7">
-            <a href="#" class="btnBack">
-                <i class="fas fa-chevron-left"></i>
-            </a>
-            <h1>Projects</h1>
-            <div class="buttonList">
-                <a href="http://projects.krzysztofczepiec.pl/timeme/?addproject" class="btnAdd">Create new project</a>
-            </div>
+            <h1>Finished projects</h1>
         </div>
         <div class="col-md-5">
             <form action="" class="searchForm">
@@ -31,6 +25,7 @@
                         <th scope="col">Expected date</th>
                         <th scope="col">Time predict</th>
                         <th scope="col">Time spent</th>
+                        <th scope="col">Completed</th>
                     </tr>
                     </thead>
                     <tbody>
@@ -45,6 +40,7 @@
                         <td>2019-02-03</td>
                         <td>2 hours</td>
                         <td>2 hours</td>
+                        <td><span class='badge badge-pill badge-success'>ENDED</span></td>
                     </tr>  
                 ";
                     }

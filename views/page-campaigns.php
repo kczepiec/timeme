@@ -2,9 +2,6 @@
 <section class="header">
     <div class="row">
         <div class="col-md-8">
-            <a href="#" class="btnBack">
-                <i class="fas fa-chevron-left"></i>
-            </a>
             <h1>Campaigns</h1>
             <div class="buttonList">
                 <a href="http://projects.krzysztofczepiec.pl/timeme/?addcampaign" class="btnAdd">Create new campaign</a>

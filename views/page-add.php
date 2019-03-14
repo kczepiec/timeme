@@ -133,12 +133,12 @@
             </div>
             <div class="col-md-6">
                 <div class="form-group-float">
-                    <label for="">Job description</label>
+                    <label for="" class="m-25">Job description</label>
                     <textarea type="text" class="form-control w-100"
                               style="resize: none; height: 100px; padding-top: 10px;"></textarea>
                 </div>
                 <div class="form-group-float">
-                    <label for="">Final comment</label>
+                    <label for="" class="m-25">Final comment</label>
                     <textarea type="text" class="form-control w-100"
                               style="resize: none; height: 100px; padding-top: 10px;"></textarea>
                 </div>

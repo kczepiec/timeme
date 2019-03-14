@@ -2,12 +2,12 @@
 <section class="header">
     <div class="row">
         <div class="col-md-7">
-            <a href="#" class="btnBack">
+            <a href="http://projects.krzysztofczepiec.pl/timeme/?projects" class="btnBack">
                 <i class="fas fa-chevron-left"></i>
             </a>
             <h1>1NCE</h1>
             <div class="buttonList">
-                <a href="#" class="btnAdd">Create new task</a>
+                <a href="http://projects.krzysztofczepiec.pl/timeme/?addtask" class="btnAdd">Create new task</a>
             </div>
         </div>
         <div class="col-md-5">
@@ -143,8 +143,8 @@
                 <div class="row mt-4">
                     <div class="col-md-12">
                         <div class="float-right">
-                            <a href="#" class="btnNormal mr-3">Cancel</a>
-                            <a href="#" class="btnAdd" style="width: 90px">Submit</a>
+                            <a href="http://projects.krzysztofczepiec.pl/timeme/?projects" class="btnNormal mr-3">Cancel</a>
+                            <a href="http://projects.krzysztofczepiec.pl/timeme/?projects" class="btnAdd" style="width: 90px">Submit</a>
                         </div>
                     </div>
                 </div>
@@ -173,7 +173,7 @@
                     for ($i = 0; $i < 20; $i++) {
                         echo "
                    <tr>
-                        <td width='300'><a href='#' class='taskLink'><span class='tdLength'>Designer meetup Competition</span></a></td>
+                        <td width='300'><a href='http://projects.krzysztofczepiec.pl/timeme/?project' class='taskLink'><span class='tdLength'>Designer meetup Competition</span></a></td>
                         <td>Plystar</td>
                         <td>Izabela Pronko</td>
                         <td>Marek Maroszek</td>

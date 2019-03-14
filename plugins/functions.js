@@ -11,8 +11,17 @@ $('input[name="startDate"]').daterangepicker({
     showDropdowns: true,
 });
 
+$('input[name="endDate"]').daterangepicker({
+    singleDatePicker: true,
+    showDropdowns: true,
+});
+
 $('input[name="expectedDate"]').daterangepicker({
     singleDatePicker: true,
     showDropdowns: true,
+});
+
+$('#a1').on('click', function () {
+    $('#b1').fadeToggle();
 });
 

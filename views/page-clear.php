@@ -1,24 +1,4 @@
 <!-- Template page -->
-<!--<div class="section-header">-->
-<!--    <div class="d-flex flex-sm-column flex-md-row justify-content-md-between">-->
-<!--        <div class="p-2 bd-highlight">-->
-<!--            <h1>My Tasks</h1>-->
-<!--        </div>-->
-<!--        <div class="mr-auto p-2 bd-highlight">-->
-<!--            <a href="#" class="btnAdd">Create new task</a>-->
-<!--            <a href="#" class="btnNormal">Archive</a>-->
-<!--            <a href="#" class="btnNormal">Finished tasks</a>-->
-<!--        </div>-->
-<!--        <div class="p-2 bd-highlight">-->
-<!--            <div class="search">-->
-<!--                <form action="">-->
-<!--                    <input type="text" class="searchInput" placeholder="Search...">-->
-<!--                    <label for=""><i class="fas fa-search"></i></label>-->
-<!--                </form>-->
-<!--            </div>-->
-<!--        </div>-->
-<!--    </div>-->
-<!--</div>-->
 <section class="header">
     <div class="row">
         <div class="col-md-8">
@@ -27,7 +7,7 @@
             </a>
             <h1>My Tasks</h1>
             <div class="buttonList">
-                <a href="#" class="btnAdd">Create new task</a>
+                <a href="http://projects.krzysztofczepiec.pl/timeme/?addtask" class="btnAdd">Create new task</a>
                 <a href="#" class="btnNormal">Archive</a>
                 <a href="#" class="btnNormal">Finished tasks</a>
             </div>

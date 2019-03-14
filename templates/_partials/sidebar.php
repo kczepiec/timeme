@@ -8,7 +8,7 @@
             <i class="fas fa-bars"></i>
         </a>
         <ul id="sidebarMenu" class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <li><a href="" class="sidebar-link"><i class="fas fa-columns"></i> Dashboard</a></li>
+            <li><a href="http://projects.krzysztofczepiec.pl/timeme/?dashboard" class="sidebar-link"><i class="fas fa-columns"></i> Dashboard</a></li>
             <li>
                 <a class="sidebar-link accordion-heading" data-toggle="collapse" data-target="#projects">
                     <i class="far fa-file"></i> Projects <span><i class="fas fa-chevron-down"></i></span>
@@ -16,7 +16,7 @@
 
                 <ul class="collapse" id="projects">
                     <li>
-                        <a href="#" class="sidebar-sublink"><i class="fas fa-tasks mr-3"></i> All projects</a>
+                        <a href="http://projects.krzysztofczepiec.pl/timeme/?projects" class="sidebar-sublink"><i class="fas fa-tasks mr-3"></i> All projects</a>
                     </li>
                 </ul>
             </li>
@@ -27,7 +27,7 @@
 
                 <ul class="collapse" id="tasks">
                     <li>
-                        <a href="#" class="sidebar-sublink"><i class="fas fa-tasks mr-3"></i> All tasks</a>
+                        <a href="http://projects.krzysztofczepiec.pl/timeme/?template" class="sidebar-sublink"><i class="fas fa-tasks mr-3"></i> All tasks</a>
                     </li>
                 </ul>
             </li>
@@ -38,7 +38,7 @@
 
                 <ul class="collapse" id="clients">
                     <li>
-                        <a href="#" class="sidebar-sublink"><i class="fas fa-users mr-3"></i> All clients</a>
+                        <a href="http://projects.krzysztofczepiec.pl/timeme/?clients" class="sidebar-sublink"><i class="fas fa-users mr-3"></i> All clients</a>
                     </li>
                 </ul>
             </li>
@@ -49,7 +49,7 @@
 
                 <ul class="collapse" id="campaigns">
                     <li>
-                        <a href="#" class="sidebar-sublink"><i class="fas fa-users mr-3"></i> All campaigns</a>
+                        <a href="http://projects.krzysztofczepiec.pl/timeme/?campaigns" class="sidebar-sublink"><i class="fas fa-users mr-3"></i> All campaigns</a>
                     </li>
                 </ul>
             </li>

@@ -2,7 +2,7 @@
 <section class="header">
     <div class="row">
         <div class="col-md-7">
-            <a href="#" class="btnBack">
+            <a href="http://projects.krzysztofczepiec.pl/timeme/?projects" class="btnBack">
                 <i class="fas fa-chevron-left"></i>
             </a>
             <h1>Add new project</h1>
@@ -132,8 +132,8 @@
         <div class="row">
             <div class="col-md-12">
                 <div class="text-center">
-                    <a href="#" class="btnNormal mr-3">Cancel</a>
-                    <a href="#" class="btnAdd" style="width: 90px">Submit</a>
+                    <a href="http://projects.krzysztofczepiec.pl/timeme/?projects" class="btnNormal mr-3">Cancel</a>
+                    <a href="http://projects.krzysztofczepiec.pl/timeme/?projects" class="btnAdd" style="width: 90px">Submit</a>
                 </div>
             </div>
         </div>

@@ -7,7 +7,7 @@
             </a>
             <h1>Projects</h1>
             <div class="buttonList">
-                <a href="#" class="btnAdd">Create new project</a>
+                <a href="http://projects.krzysztofczepiec.pl/timeme/?addproject" class="btnAdd">Create new project</a>
             </div>
         </div>
         <div class="col-md-5">
@@ -36,10 +36,10 @@
                     <tbody>
                     <?php
 
-                    for ($i = 0; $i < 20; $i++) {
+                    for ($i = 0; $i < 5; $i++) {
                         echo "
                    <tr>
-                        <td width='300'><a href='#' class='taskLink'><span class='tdLength'>Designer meetup Competition</span></a></td>
+                        <td width='300'><a href='http://projects.krzysztofczepiec.pl/timeme/?project' class='taskLink'><span class='tdLength'>Designer meetup Competition</span></a></td>
                         <td>Polystar</td>
                         <td>Hold on</td>
                         <td>2019-02-03</td>

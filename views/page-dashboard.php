@@ -5,14 +5,14 @@
             <div class="dashboard-box projects">
                 <h6 class="name">FINISHED PROJECTS</h6>
                 <span class="amount">27</span>
-                <a href="" class="link">Check all projects</a>
+                <a href="http://projects.krzysztofczepiec.pl/timeme/?projects" class="link">Check all projects</a>
             </div>
         </div>
         <div class="col-md-3">
             <div class="dashboard-box tasks">
                 <h6 class="name">FINISHED TSKS</h6>
                 <span class="amount">129</span>
-                <a href="" class="link">Check all tasks</a>
+                <a href="http://projects.krzysztofczepiec.pl/timeme/?template" class="link">Check all tasks</a>
             </div>
         </div>
         <div class="col-md-3">
@@ -26,7 +26,7 @@
             <div class="dashboard-box clients">
                 <h6 class="name">CLIENTS</h6>
                 <span class="amount">182</span>
-                <a href="" class="link">Check all clients</a>
+                <a href="http://projects.krzysztofczepiec.pl/timeme/?clients" class="link">Check all clients</a>
             </div>
         </div>
     </div>
@@ -105,10 +105,63 @@
                         <table class="table activityTable">
                             <tbody>
                             <tr>
-                                <td class="text-left">
-                                    <div class="avatar">
-                                        <img src="https://tinyfac.es/data/avatars/475605E3-69C5-4D2B-8727-61B7BB8C4699-500w.jpeg" alt="">
-                                    </div>
+                                <td class="text-left" width="45">
+                                    <img  class="avatar mr-0" src="https://tinyfac.es/data/avatars/475605E3-69C5-4D2B-8727-61B7BB8C4699-500w.jpeg" alt="">
+                                </td>
+                                <td>
+                                    <strong>%firstname%</strong> updated campaign for <strong>%client%</strong>
+                                </td>
+                                <td class="text-right">
+                                    <a href="#">View activity</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="text-left" width="45">
+                                    <img  class="avatar mr-0" src="https://tinyfac.es/data/avatars/475605E3-69C5-4D2B-8727-61B7BB8C4699-500w.jpeg" alt="">
+                                </td>
+                                <td>
+                                    <strong>%firstname%</strong> updated campaign for <strong>%client%</strong>
+                                </td>
+                                <td class="text-right">
+                                    <a href="#">View activity</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="text-left" width="45">
+                                    <img  class="avatar mr-0" src="https://tinyfac.es/data/avatars/475605E3-69C5-4D2B-8727-61B7BB8C4699-500w.jpeg" alt="">
+                                </td>
+                                <td>
+                                    <strong>%firstname%</strong> updated campaign for <strong>%client%</strong>
+                                </td>
+                                <td class="text-right">
+                                    <a href="#">View activity</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="text-left" width="45">
+                                    <img  class="avatar mr-0" src="https://tinyfac.es/data/avatars/475605E3-69C5-4D2B-8727-61B7BB8C4699-500w.jpeg" alt="">
+                                </td>
+                                <td>
+                                    <strong>%firstname%</strong> updated campaign for <strong>%client%</strong>
+                                </td>
+                                <td class="text-right">
+                                    <a href="#">View activity</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="text-left" width="45">
+                                    <img  class="avatar mr-0" src="https://tinyfac.es/data/avatars/475605E3-69C5-4D2B-8727-61B7BB8C4699-500w.jpeg" alt="">
+                                </td>
+                                <td>
+                                    <strong>%firstname%</strong> updated campaign for <strong>%client%</strong>
+                                </td>
+                                <td class="text-right">
+                                    <a href="#">View activity</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="text-left" width="45">
+                                    <img  class="avatar mr-0" src="https://tinyfac.es/data/avatars/475605E3-69C5-4D2B-8727-61B7BB8C4699-500w.jpeg" alt="">
                                 </td>
                                 <td>
                                     <strong>%firstname%</strong> updated campaign for <strong>%client%</strong>

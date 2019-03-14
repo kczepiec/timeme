@@ -5,6 +5,10 @@
     box-sizing: border-box;
 }
 
+a {
+    color: #06B4FE;
+}
+
 a:hover, a:focus, a:active {
     text-decoration: none;
 }
@@ -13,6 +17,18 @@ html, body {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     font-size: 14px;
     color: #A0AABE;
+}
+
+.text-dark {
+    color: #26335E;
+}
+
+.badge-pill {
+    padding: 5px 10px;
+}
+
+.badge-danger {
+    background: #E74C3C;
 }
 
 .navbar {
@@ -229,6 +245,22 @@ html, body {
     -moz-box-shadow: 0px 3px 20px 0px rgba(187,195,211,0.1);
     box-shadow: 0px 3px 20px 0px rgba(187,195,211,0.1);
     margin-bottom: 15px;
+}
+
+.btn {
+    padding: 10px 20px;
+    border-radius: 30px;
+}
+
+.btn-primary {
+    background-color: #06B4FE;
+    border: #06B4FE;
+    transition: all .2s ease-in-out;
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+    background-color: #088ffe;
 }
 
 
@@ -573,6 +605,15 @@ main.content {
     -webkit-line-clamp: 1; /* number of lines to show */
     line-height: 20px;        /* fallback */
     max-height: 20px;       /* fallback */
+}
+
+.openInfo {
+    color: #06B4FE;
+    background: rgba(6,180,254, 0.2);
+    padding: 10px 12px;
+    border-radius: 50%;
+    font-size: 16px;
+    margin-right: 15px;
 }
 
 .notificationAlert i {
@@ -1039,6 +1080,8 @@ select.wide {
 .dashboard-box .box-header .box-link {
     color: #A0AABE;
     float: right;
+    top: -65px;
+    position: relative;
 }
 
 .tasksTable tr td {
@@ -1076,8 +1119,20 @@ select.wide {
     border-radius: 5px;
 }
 
+.activityTable tr td {
+    line-height: 24px;
+    height: 50px;
+}
+
 .activityTable .avatar {
-    width: ;
+    width: 45px;
+    height: 45px;
+    object-fit: cover;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    margin-right: 15px;
+    display: block !important;
 }
 
 /* END */
@@ -1549,5 +1604,81 @@ select.wide {
     }
     .app-login form {
         width: 100%;
+    }
+    .activityTable tr td {
+        line-height: 50px;
+        height: 50px;
+    }
+    .dashboard-box .box-header .box-link {
+        color: #A0AABE;
+        float: right;
+        top: inherit;
+        position: relative;
+    }
+    .showCampaign {
+        padding-bottom: 100px !important;
+    }
+    .openInfo {
+        color: #06B4FE;
+        background: rgba(6,180,254, 0.2);
+        padding: 10px 12px;
+        border-radius: 50%;
+        font-size: 16px;
+        margin-right: 15px;
+    }
+
+    .campaignInfo .editBtn {
+        position: absolute;
+        top: 0;
+        right: -70px;
+        /* padding: 15px 15px; */
+        background: rgba(6,180,254, 0.2);
+        width: 45px;
+        height: 45px;
+        border-radius: 50%;
+        color: #06B4FE;
+        line-height: 45px;
+        text-align: center;
+    }
+    .campaignInfo {
+        margin-top: 15px;
+        line-height: 18px;
+        display: none;
+        position: relative;
+    }
+    .campaignInfo.show {
+        display: block;
+    }
+    .campaignInfo .form-group-float label {
+        position: absolute;
+        top: -6px;
+        left: 20px;
+        text-align: left;
+        background: #fff;
+        padding: 0 10px;
+        z-index: 10;
+        height: 14px;
+        line-height: 14px;
+    }
+    .campaignInfo .inputLink {
+        top: 3px;
+        position: absolute;
+        right: 20px;
+        line-height: 43px;
+    }
+}
+
+@media (min-width: 576px) {
+    .modal-dialog {
+        max-width: 600px;
+        padding: 0;
+        margin: 1.75rem auto;
+
+    }
+
+    .modal-dialog .modal-content {
+        padding: 0 60px;
+        border-radius: 20px;
+        border: 0;
     }
 }

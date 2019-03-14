@@ -4,24 +4,24 @@ Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
 
 Views 
 - 
-3. Dashboard view - **Done**
-1. Task view - **Done**
-2. Task add view - **Done**
-3. MyProjects view - **Done**
-3. AllProjects view - **Done**
-3. PendingProjects view - **Done**
-3. FinishedProjects view - **Done**
-3. MyTasks view - **Done**
-3. AllTasks view - **Done**
-3. PendingTasks view - **Done**
-3. FinishedTasks view - **Done**
-3. Campaigns view - **Done**
-3. Clients view - **Done**
-3. Add new Task view - **Done**
-3. Add new Project view - **Done**
-3. Add new Campaign view - **Done**
-3. Add new Client view - **Done**
-5. Login view - **Done**
+1. Dashboard view - **Done**
+2. Task view - **Done**
+3. Task add view - **Done**
+4. MyProjects view - **Done**
+5. AllProjects view - **Done**
+6. PendingProjects view - **Done**
+7. FinishedProjects view - **Done**
+8. MyTasks view - **Done**
+9. AllTasks view - **Done**
+10. PendingTasks view - **Done**
+11. FinishedTasks view - **Done**
+12. Campaigns view - **Done**
+13. Clients view - **Done**
+14. Add new Task view - **Done**
+15. Add new Project view - **Done**
+16. Add new Campaign view - **Done**
+17. Add new Client view - **Done**
+18. Login view - **Done**
 
 Created by **weknow**
 

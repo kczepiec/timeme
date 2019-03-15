@@ -23,8 +23,20 @@ textarea::-webkit-scrollbar {
     display: none;
 }
 
+a:not([href]):not([tabindex]) {
+    cursor: pointer;
+}
+
 .text-dark {
     color: #26335E;
+}
+
+.text-primary {
+    color: #06B4FE !important;
+}
+
+.text-bold {
+    font-weight: bold;
 }
 
 .badge-pill {
@@ -905,6 +917,7 @@ main.content {
     background: #06B4FE;
     color: #fff;
     border-radius: 50%;
+    left: -30px;
 }
 .form-control:focus, input:focus {
     box-shadow: 0 0 0 0;
@@ -1685,6 +1698,17 @@ select.wide {
         position: absolute;
         right: 20px;
         line-height: 43px;
+    }
+    .form-group-float .inputLink.plus{
+        width: 20px;
+        height: 20px;
+        text-align: center;
+        line-height: 20px;
+        font-size: 10px;
+        background: #06B4FE;
+        color: #fff;
+        border-radius: 50%;
+        left: -30px;
     }
 }
 

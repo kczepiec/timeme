@@ -2,7 +2,7 @@
 <section class="header">
     <div class="row">
         <div class="col-md-8">
-            <a href="http://projects.krzysztofczepiec.pl/timeme/?template" class="btnBack">
+            <a href="http://projects.krzysztofczepiec.pl/timeme/?tasks" class="btnBack">
                 <i class="fas fa-chevron-left"></i>
             </a>
             <h1>1NCE</h1>

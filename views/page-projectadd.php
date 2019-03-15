@@ -43,6 +43,7 @@
 
                         ?>
                     </select>
+                    <a href="#" data-toggle="modal" data-target="#addClient" class="inputLink plus mr-4"><i class="fa fa-plus"></i></a>
                 </div>
                 <h3>Additional informations</h3>
                 <div class="row">
@@ -138,3 +139,4 @@
         </div>
     </form>
 </div>
+<?php include("templates/_partials/modals.php"); ?>

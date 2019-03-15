@@ -1,6 +1,6 @@
 <div class="sidebar">
     <div class="sidebar--top">
-        <a href="#" class="btn-add-task pulse">Create new task</a>
+        <a href="http://projects.krzysztofczepiec.pl/timeme/?addtask" class="btn-add-task pulse">Create new task</a>
     </div>
     <div class="sidebar--nav">
         <a class="dropdown-toggle" href="#" id="hidden" role="button" data-toggle="dropdown"
@@ -13,7 +13,6 @@
                 <a class="sidebar-link accordion-heading" data-toggle="collapse" data-target="#projects">
                     <i class="far fa-file"></i> Projects <span><i class="fas fa-chevron-down"></i></span>
                 </a>
-
                 <ul class="collapse" id="projects">
                     <li>
                         <a href="http://projects.krzysztofczepiec.pl/timeme/?myprojects" class="sidebar-sublink"><i class="fas fa-tasks mr-3"></i> My projects</a>

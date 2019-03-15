@@ -24,12 +24,13 @@
             <tr>
                 <th scope="col">Task name</th>
                 <th scope="col">Client</th>
-                <th scope="col">Assigned to</th>
-                <th scope="col">Request. by</th>
-                <th scope="col">Expected date</th>
+                <th scope="col">Added by</th>
+                <th scope="col">Date added</th>
+                <th scope="col">Deadline</th>
                 <th scope="col">Time predict.</th>
                 <th scope="col">Time spent</th>
                 <th scope="col">Completed</th>
+                <th scope="col">Start/Stop</th>
             </tr>
             </thead>
             <tbody>
@@ -38,14 +39,15 @@
             for ($i = 0; $i < 20; $i++) {
                 echo "
                    <tr>
-                        <td width='300'><a href='#' class='taskLink'><span class='tdLength'>Designer meetup Competition</span></a></td>
-                        <td>Plystar</td>
-                        <td>Izabela Pronko</td>
+                        <td width='300'><a href='http://projects.krzysztofczepiec.pl/timeme/?task' class='taskLink'><span class='tdLength'>Designer meetup Competition</span></a></td>
+                        <td>Polystar</td>
                         <td>Marek Maroszek</td>
                         <td>2019-02-03</td>
+                        <td>2019-03-11</td>
                         <td>2 hours</td>
                         <td>2 hours</td>
                         <td><span class='badge badge-pill badge-danger'>DUE TODAY</span></td>
+                        <td><a href='' class='btn btn-primary'> <i class='fas fa-play mr-3'></i> Start</a></td>
                   
                         
                     </tr>  

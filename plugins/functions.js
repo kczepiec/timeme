@@ -21,3 +21,7 @@ $('input[name="expectedDate"]').daterangepicker({
     showDropdowns: true,
 });
 
+// DATATABLES INIT
+$(document).ready(function() {
+    $('#dataTable').DataTable();
+} );

@@ -63,6 +63,50 @@
                             <tr>
                                 <td class="text-left">
                                     <div class="custom-control custom-checkbox">
+                                        <input type="checkbox" class="custom-control-input" id="customCheck1">
+                                        <label class="custom-control-label" for="customCheck1">
+                                            Create new prototype for the landing page
+                                        </label>
+                                    </div>
+                                </td>
+                                <td class="text-right"><span class="badge badge-danger">DUE TODAY</span></td>
+                            </tr>
+                            <tr>
+                                <td class="text-left">
+                                    <div class="custom-control custom-checkbox">
+                                        <input type="checkbox" class="custom-control-input" id="customCheck1">
+                                        <label class="custom-control-label" for="customCheck1">
+                                            Create new prototype for the landing page
+                                        </label>
+                                    </div>
+                                </td>
+                                <td class="text-right"><span class="badge badge-danger">DUE TODAY</span></td>
+                            </tr>
+                            <tr>
+                                <td class="text-left">
+                                    <div class="custom-control custom-checkbox">
+                                        <input type="checkbox" class="custom-control-input" id="customCheck1">
+                                        <label class="custom-control-label" for="customCheck1">
+                                            Create new prototype for the landing page
+                                        </label>
+                                    </div>
+                                </td>
+                                <td class="text-right"><span class="badge badge-danger">DUE TODAY</span></td>
+                            </tr>
+                            <tr>
+                                <td class="text-left">
+                                    <div class="custom-control custom-checkbox">
+                                        <input type="checkbox" class="custom-control-input" id="customCheck1">
+                                        <label class="custom-control-label" for="customCheck1">
+                                            Create new prototype for the landing page
+                                        </label>
+                                    </div>
+                                </td>
+                                <td class="text-right"><span class="badge badge-danger">DUE TODAY</span></td>
+                            </tr>
+                            <tr>
+                                <td class="text-left">
+                                    <div class="custom-control custom-checkbox">
                                         <input type="checkbox" class="custom-control-input" id="customCheck2">
                                         <label class="custom-control-label" for="customCheck2">
                                             Create new prototype for the landing page

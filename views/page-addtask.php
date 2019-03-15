@@ -46,6 +46,7 @@
 
                         ?>
                     </select>
+                    <a href="#" data-toggle="modal" data-target="#addClient" class="inputLink plus mr-4"><i class="fa fa-plus"></i></a>
                 </div>
                 <div class="form-group-float">
                     <label for="">Project name</label>
@@ -58,6 +59,7 @@
 
                         ?>
                     </select>
+                    <a href="#" data-toggle="modal" data-target="#addProject" class="inputLink plus mr-4"><i class="fa fa-plus"></i></a>
                 </div>
                 <div class="form-group-float">
                     <label for="">Campaign linked</label>
@@ -68,6 +70,7 @@
                         }
                         ?>
                     </select>
+                    <a href="#" data-toggle="modal" data-target="#addCampaign" class="inputLink plus mr-4"><i class="fa fa-plus"></i></a>
                 </div>
                 <h3>Additional informations</h3>
                 <div class="row">
@@ -193,3 +196,4 @@
         <a href="http://projects.krzysztofczepiec.pl/timeme/?template" class="btnAdd" style="width: 90px">Submit</a>
     </div>
 </div>
+<?php include("templates/_partials/modals.php"); ?>

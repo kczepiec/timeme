@@ -40,6 +40,7 @@
 
                         ?>
                     </select>
+                    <a href="#" data-toggle="modal" data-target="#addCampaign" class="inputLink plus mr-4"><i class="fa fa-plus"></i></a>
                 </div>
                 <div class="form-group-float">
                     <label for="">Activity to do</label>
@@ -65,6 +66,7 @@
                                 }
                                 ?>
                             </select>
+                            <a href="#" data-toggle="modal" data-target="#addCampaign" class="inputLink plus mr-4"><i class="fa fa-plus"></i></a>
                         </div>
                     </div>
                     <div class="col-md-4">

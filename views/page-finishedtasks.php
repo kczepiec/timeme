@@ -37,7 +37,7 @@
                    <tr>
                         <td>$i</td>
                         <td>2019-02-03</td>
-                        <td width='300'><a href='#' class='taskLink'><span class='tdLength'>Designer meetup Competition</span></a></td>
+                        <td width='300'><a href='http://projects.krzysztofczepiec.pl/timeme/?task' class='taskLink'><span class='tdLength'>Designer meetup Competition</span></a></td>
                         <td>Plystar</td>
                         <td>Izabela Pronko</td>
                         <td>Marek Maroszek</td>

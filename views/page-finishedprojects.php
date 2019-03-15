@@ -21,7 +21,6 @@
                     <tr>
                         <th scope="col">Task name</th>
                         <th scope="col">Client</th>
-                        <th scope="col">Status</th>
                         <th scope="col">Expected date</th>
                         <th scope="col">Time predict</th>
                         <th scope="col">Time spent</th>
@@ -36,7 +35,6 @@
                    <tr>
                         <td width='300'><a href='http://projects.krzysztofczepiec.pl/timeme/?project' class='taskLink'><span class='tdLength'>Designer meetup Competition</span></a></td>
                         <td>Polystar</td>
-                        <td>Hold on</td>
                         <td>2019-02-03</td>
                         <td>2 hours</td>
                         <td>2 hours</td>

@@ -19,8 +19,10 @@
 
                     if (isset($_GET['template'])) {
                         include("views/page-clear.php");
+                    } else if (isset($_GET['task'])) {
+                        include("views/page-task.php");
                     } else if (isset($_GET['addtask'])) {
-                        include("views/page-add.php");
+                        include("views/page-addtask.php");
                     } else if (isset($_GET['mytasks'])) {
                         include("views/page-mytasks.php");
                     } else if (isset($_GET['alltasks'])) {
@@ -51,6 +53,8 @@
                         include("views/page-addclient.php");
                     } else if (isset($_GET['client'])) {
                         include("views/page-client.php");
+                    } else if (isset($_GET['clientsDEV'])) {
+                        include("views/page-clientsDT.php");
                     }
 
 
